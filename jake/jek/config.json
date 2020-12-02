@@ -1,0 +1,94 @@
+{
+
+ "Account": {
+     "Username": "edixx",
+     "Password": "@Edikferdyanto123"
+     },
+ "Target Profit": "1000.00000000",
+ "Target Win": "100000.00000000",
+ "Lose Target": "0.000000",
+ "Interval": "1",
+ "Config": [{
+
+     "Name Bet Set": "Wager teros sampe mampos",
+     "Base Bet": "0.0005",
+     "Max Bet": "OFF",
+     "Chance": "95",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "15",
+          "Max": "16"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "2",
+              "If Win": "3"
+            }
+	        },
+     "If Win": "1",
+     "If Lose": "1.26",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.0000001",
+     "Interval": "1"
+     },{
+
+     "Name Bet Set": "0.0001",
+     "Base Bet": "0.01",
+     "Max Bet": "Off",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "80",
+          "Max": "81"
+        },
+     "Bet": {
+          "Bet": "low",
+          "Hi / Low": {
+              "Toggle": "off",
+              "If Lose": "1",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.1",
+
+     "Interval": "1"
+     },{
+
+     "Name Bet Set": "3",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "80",
+          "Max": "81"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose": "1",
+              "If Win": "2"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "2",
+     "Reset If Profit": "0",
+     "Interval": "1"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "418",
+       "Wallet Address": "DLSECiR5c1ck9Zw1xnTsSpCYDqR6RFCuNk",
+       "Amount": "418"
+      },
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0"
+
+}
